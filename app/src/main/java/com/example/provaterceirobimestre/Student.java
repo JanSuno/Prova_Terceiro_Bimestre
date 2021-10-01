@@ -1,6 +1,8 @@
 package com.example.provaterceirobimestre;
 
-public class Student {
+import java.io.Serializable;
+
+public class Student implements Serializable {
     private String name;
     private double average;
     private double grade1;

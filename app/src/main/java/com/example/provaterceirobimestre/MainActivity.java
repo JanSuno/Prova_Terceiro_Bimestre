@@ -1,3 +1,5 @@
+//Integrantes: Lucas Aguiar Cera e Renan Wenzel
+
 package com.example.provaterceirobimestre;
 
 import androidx.appcompat.app.AppCompatActivity;

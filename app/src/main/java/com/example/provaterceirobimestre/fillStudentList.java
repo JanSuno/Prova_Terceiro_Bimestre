@@ -43,7 +43,7 @@ public class fillStudentList extends AppCompatActivity {
             grade2 = Double.parseDouble(gr2);
             average = (grade1 + grade2)/2;
 
-            Student student = new Student(name, grade1, grade2, average);
+            Student student = new Student(name, average, grade1, grade2);
 
             Intent i = new Intent(getApplicationContext(), MainActivity.class);
 

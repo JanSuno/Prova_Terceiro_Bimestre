@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
             adapter.notifyDataSetChanged();
 
-            Toast.makeText(MainActivity.this, "Estudando removido!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "Estudante removido!", Toast.LENGTH_SHORT).show();
 
             return true;
         }
